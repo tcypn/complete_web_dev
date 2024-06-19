@@ -50,6 +50,7 @@ app.delete("/del/:id", (req, res) => {
 
 app.listen(PORT, () => {
   console.log("Server is up and running on port 3000");
+  console.log("http://localhost:3000");
 });
 
 class BlogPost {
